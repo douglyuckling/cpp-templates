@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Boost"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(boost)&quot;"
+		RuntimeLibrary="3"
+		DisableSpecificWarnings="4996"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalLibraryDirectories="&quot;$(boost)\lib&quot;"
+	/>
+	<UserMacro
+		Name="boost"
+		Value="C:\Program Files\boost\boost_1_40_0\"
+	/>
+</VisualStudioPropertySheet>

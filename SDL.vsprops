@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SDL"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(sdl)&quot;"
+		RuntimeLibrary="3"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies=" sdl.lib SDLmain.lib"
+		AdditionalLibraryDirectories="&quot;$(sdl)\lib&quot;"
+		IgnoreDefaultLibraryNames="msvcrt.lib"
+	/>
+	<UserMacro
+		Name="sdl"
+		Value="C:\Program Files\sdl\SDL-1.2.13\"
+	/>
+</VisualStudioPropertySheet>
